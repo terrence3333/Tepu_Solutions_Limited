@@ -129,3 +129,10 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 .brand-logo{display:block;width:240px;height:auto;max-height:68px;object-fit:contain}
 .footer .brand-logo{width:250px;max-height:82px}
 @media(max-width:540px){.brand-logo{width:180px;max-height:62px}}
+
+/* Tighten the Company overview heading and align its photo and copy. */
+#about>.wrap>.section-head{margin-bottom:20px}
+#about .about-grid{gap:22px 40px;align-items:start}
+#about .about-photo,#about .about-copy{margin-top:0;padding-top:0}
+#about .about-copy p:first-child{margin-top:0}
+@media(max-width:800px){#about>.wrap>.section-head{margin-bottom:18px}#about .about-grid{gap:16px}}
