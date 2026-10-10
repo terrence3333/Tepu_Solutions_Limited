@@ -116,6 +116,4 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 @media(max-width:800px){.hero-layout{grid-template-columns:1fr;grid-template-rows:auto auto;gap:18px;padding-top:46px}.hero-main{grid-column:1;grid-row:1;max-width:100%}.hero-metrics{grid-column:1;grid-row:2;margin-top:12px}}
 @media(max-width:540px){.hero-layout{padding-top:34px;padding-bottom:32px}.hero-metrics{grid-template-columns:1fr;gap:10px}}
 @media(prefers-reduced-motion:reduce){.hero-showcase:before,.hero-showcase:after,.home-glow,.home-orbit{animation:none!important}.hero-showcase:after{display:none}}
-.services-section .section-head{margin-bottom:48px}
-.services-section .section-title,.services-section .section-lede{grid-row:1}
 
