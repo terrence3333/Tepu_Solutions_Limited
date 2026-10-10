@@ -124,22 +124,15 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 .services-section .scope-dropdown>ul{margin-top:12px}
 .services-section .scope-dropdown>summary:focus-visible{outline:2px solid #e5a767;border-radius:2px}
 
- 
-
 .brand-logo{display:block;width:240px;height:auto;max-height:68px;object-fit:contain}
 .footer .brand-logo{width:250px;max-height:82px}
 @media(max-width:540px){.brand-logo{width:180px;max-height:62px}}
-
 /* Tighten the Company overview heading and align its photo and copy. */
 #about>.wrap>.section-head{margin-bottom:20px}
 #about .about-grid{gap:22px 40px;align-items:start}
 #about .about-photo,#about .about-copy{margin-top:0;padding-top:0}
 #about .about-copy p:first-child{margin-top:0}
 @media(max-width:800px){#about>.wrap>.section-head{margin-bottom:18px}#about .about-grid{gap:16px}}
-
-
-
-
 /* Give each scope requirement stage its own click-to-expand control. */
 .builder-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .builder-stage-dropdown{border:1px solid #e2d2bd;border-radius:7px;background:#fbf6ed;overflow:hidden}
@@ -151,3 +144,6 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 .builder-stage-dropdown>summary:focus-visible{outline:2px solid #bd6e28;outline-offset:-3px}
 .builder-stage-dropdown .stage-options{padding:12px}
 @media(max-width:540px){.builder-grid{grid-template-columns:1fr}}
+/* Keep the logo, partner action, and menu inside narrow mobile headers. */
+@media(max-width:540px){header .nav{gap:8px}.brand-logo{width:clamp(96px,36vw,160px)}.nav-cta{font-size:11px;padding:9px 10px}.menu{padding:7px 8px}}
+@media(max-width:380px){.brand-logo{width:96px}.nav-cta{font-size:10px;padding:8px}.menu{font-size:12px}}
