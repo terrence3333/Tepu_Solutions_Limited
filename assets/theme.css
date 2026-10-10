@@ -140,3 +140,40 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 /* Keep the logo, partner action, and menu inside narrow mobile headers. */
 @media(max-width:540px){header .nav{gap:8px}.brand-logo{width:clamp(96px,36vw,160px)}.nav-cta{font-size:11px;padding:9px 10px}.menu{padding:7px 8px}}
 @media(max-width:380px){.brand-logo{width:96px}.nav-cta{font-size:10px;padding:8px}.menu{font-size:12px}}
+
+/* Stronger but still restrained homepage background motion and larger headings. */
+@media (min-width:801px){.navlink{font-size:15px;font-weight:600}}
+.section-title{font-size:clamp(36px,4.1vw,56px)}
+.services-section .card h3{font-size:20px}
+.language-card h3{font-size:23px}
+.hero-motion-bg{background:transparent!important}
+.hero-showcase:before{
+  opacity:.62;
+  background-image:
+    radial-gradient(circle,rgba(166,90,24,.3) 1.2px,transparent 2px),
+    radial-gradient(circle,rgba(255,255,255,.92) 1.4px,transparent 2px),
+    linear-gradient(90deg,transparent 49.8%,rgba(166,90,24,.045) 50%,transparent 50.2%);
+  background-size:52px 52px,88px 88px,104px 104px;
+  animation:home-particles 16s linear infinite;
+}
+.hero-showcase:after{
+  background:linear-gradient(112deg,transparent 34%,rgba(173,93,24,.08) 46%,rgba(255,255,255,.72) 50%,rgba(173,93,24,.09) 54%,transparent 66%);
+  animation:home-sweep 9s ease-in-out infinite;
+}
+.home-glow-a{animation-duration:13s}
+.home-glow-b{animation-duration:17s}
+.home-orbit-a{border-color:rgba(172,108,57,.2);animation-duration:31s}
+.home-orbit-b{border-color:rgba(172,108,57,.17);animation-duration:39s}
+.home-orbit:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:50%;
+  width:10px;
+  height:10px;
+  margin:-5px;
+  border-radius:50%;
+  background:#b7651d;
+  box-shadow:0 0 14px rgba(183,101,29,.55);
+}
+@media(max-width:800px){.section-title{font-size:clamp(34px,6vw,48px)}}
