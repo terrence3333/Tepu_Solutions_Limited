@@ -139,12 +139,15 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 
 
 
-/* Keep the builder headings visible; expand only requirement steps 1–4. */
-.builder-options-dropdown{margin-top:18px;border:1px solid #e2d2bd;border-radius:7px;background:#fbf6ed;overflow:hidden}
-.builder-options-dropdown>summary{display:flex;align-items:center;justify-content:space-between;gap:14px;cursor:pointer;list-style:none;padding:12px 15px;color:#6b421f;font:700 13px var(--sans)}
-.builder-options-dropdown>summary::-webkit-details-marker{display:none}
-.builder-options-dropdown>summary:after{content:"Click to expand ↓";color:#a65c1d;font:10px var(--mono);white-space:nowrap}
-.builder-options-dropdown[open]>summary{border-bottom:1px solid #e7d8c5}
-.builder-options-dropdown[open]>summary:after{content:""}
-.builder-options-dropdown>summary:focus-visible{outline:2px solid #bd6e28;outline-offset:-3px}
-.builder-options-dropdown .builder-grid{margin:16px}
+
+/* Give each scope requirement stage its own click-to-expand control. */
+.builder-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.builder-stage-dropdown{border:1px solid #e2d2bd;border-radius:7px;background:#fbf6ed;overflow:hidden}
+.builder-stage-dropdown>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;list-style:none;padding:12px 14px;color:#6b421f;font:700 13px var(--sans)}
+.builder-stage-dropdown>summary::-webkit-details-marker{display:none}
+.builder-stage-dropdown>summary:after{content:"Click to expand ↓";color:#a65c1d;font:10px var(--mono);white-space:nowrap}
+.builder-stage-dropdown[open]>summary{border-bottom:1px solid #e7d8c5}
+.builder-stage-dropdown[open]>summary:after{content:""}
+.builder-stage-dropdown>summary:focus-visible{outline:2px solid #bd6e28;outline-offset:-3px}
+.builder-stage-dropdown .stage-options{padding:12px}
+@media(max-width:540px){.builder-grid{grid-template-columns:1fr}}
