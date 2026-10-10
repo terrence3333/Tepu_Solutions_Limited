@@ -125,3 +125,7 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 .services-section .scope-dropdown>summary:focus-visible{outline:2px solid #e5a767;border-radius:2px}
 
  
+
+.brand-logo{display:block;width:220px;height:auto;max-height:64px;object-fit:contain}
+.footer .brand-logo{width:230px;max-height:78px}
+@media(max-width:540px){.brand-logo{width:168px;max-height:58px}}
