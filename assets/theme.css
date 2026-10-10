@@ -144,6 +144,6 @@ header{background:rgba(250,247,240,.96);border-color:#e6dac9}
 .builder-dropdown>summary::-webkit-details-marker{display:none}
 .builder-dropdown>summary:after{content:"Click to expand ↓";color:#a65c1d;font:11px var(--mono);white-space:nowrap}
 .builder-dropdown[open]>summary{border-bottom:1px solid #e7d8c5}
-.builder-dropdown[open]>summary:after{content:"Click to hide ↑"}
+.builder-dropdown[open]>summary:after{content:""}
 .builder-dropdown>summary:focus-visible{outline:2px solid #bd6e28;outline-offset:-3px}
 .builder-dropdown>.builder{margin:0;border:0;border-radius:0}
