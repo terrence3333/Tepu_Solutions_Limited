@@ -253,3 +253,11 @@ h4{font-size:12px!important}
   background:rgba(255,247,236,.22)!important;
   color:#fffaf4!important;
 }
+
+
+/* Align the Quality section heading with the other page sections. */
+#quality .section-head{
+  margin-left:0!important;
+  margin-right:0!important;
+  text-align:left!important;
+}
