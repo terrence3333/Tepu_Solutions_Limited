@@ -206,3 +206,16 @@ h4{font-size:12px!important}
   h2{font-size:clamp(24px,4.8vw,30px)!important}
   h3{font-size:15px!important}
 }
+
+
+/* Refined title sizing for the homepage sections and hero. */
+.hero-main h1{font-size:clamp(30px,3vw,40px)!important}
+.section-title{font-size:clamp(24px,2.2vw,30px)!important}
+@media(max-width:800px){
+  .hero-main h1{font-size:clamp(28px,6vw,36px)!important}
+  .section-title{font-size:clamp(23px,4.5vw,28px)!important}
+}
+@media(max-width:540px){
+  .hero-main h1{font-size:clamp(27px,7vw,33px)!important}
+  .section-title{font-size:clamp(22px,5.5vw,27px)!important}
+}
