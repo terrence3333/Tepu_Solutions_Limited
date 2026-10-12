@@ -197,12 +197,12 @@ section h4{font-size:clamp(12px,1vw,15px)}
 }
 
 /* Smaller typography for every heading level. */
-h1{font-size:clamp(36px,4vw,56px)!important}
-h2{font-size:clamp(30px,3vw,40px)!important}
-h3{font-size:18px!important}
-h4{font-size:14px!important}
+h1{font-size:clamp(30px,3.2vw,46px)!important}
+h2{font-size:clamp(26px,2.6vw,34px)!important}
+h3{font-size:16px!important}
+h4{font-size:12px!important}
 @media(max-width:800px){
-  h1{font-size:clamp(30px,6.5vw,42px)!important}
-  h2{font-size:clamp(28px,5.5vw,36px)!important}
-  h3{font-size:17px!important}
+  h1{font-size:clamp(27px,6vw,36px)!important}
+  h2{font-size:clamp(24px,4.8vw,30px)!important}
+  h3{font-size:15px!important}
 }
