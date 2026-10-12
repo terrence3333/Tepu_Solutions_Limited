@@ -228,7 +228,7 @@ header .navlinks a.navlink[href="#regional"],
 header .navlinks a.navlink[href="#quality"],
 header .navlinks a.navlink[href="#engagement"],
 header .navlinks a.navlink[href="#leadership"],
-header .navlinks a.navlink[href="#contact"]{font-size:18px!important}
+header .navlinks a.navlink[href="#contact"]{font-size:20px!important}
 @media(max-width:800px){
   header .navlinks a.navlink[href="#capabilities"],
   header .navlinks a.navlink[href="#about"],
@@ -236,5 +236,5 @@ header .navlinks a.navlink[href="#contact"]{font-size:18px!important}
   header .navlinks a.navlink[href="#quality"],
   header .navlinks a.navlink[href="#engagement"],
   header .navlinks a.navlink[href="#leadership"],
-  header .navlinks a.navlink[href="#contact"]{font-size:17px!important}
+  header .navlinks a.navlink[href="#contact"]{font-size:18px!important}
 }
