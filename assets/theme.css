@@ -221,20 +221,20 @@ h4{font-size:12px!important}
 }
 
 
-/* Increase the requested main navigation labels. */
-header .navlinks a.navlink[href="#capabilities"],
-header .navlinks a.navlink[href="#about"],
-header .navlinks a.navlink[href="#regional"],
-header .navlinks a.navlink[href="#quality"],
-header .navlinks a.navlink[href="#engagement"],
-header .navlinks a.navlink[href="#leadership"],
-header .navlinks a.navlink[href="#contact"]{font-size:20px!important}
+/* Increase the labels within the requested website sections. */
+#capabilities .section-head>.eyebrow,
+#about .section-head>.eyebrow,
+#regional .section-head>.eyebrow,
+#quality .section-head>.eyebrow,
+#engagement .section-head>.eyebrow,
+#leadership .section-head>.eyebrow,
+#contact .section-head>.eyebrow{font-size:15px!important}
 @media(max-width:800px){
-  header .navlinks a.navlink[href="#capabilities"],
-  header .navlinks a.navlink[href="#about"],
-  header .navlinks a.navlink[href="#regional"],
-  header .navlinks a.navlink[href="#quality"],
-  header .navlinks a.navlink[href="#engagement"],
-  header .navlinks a.navlink[href="#leadership"],
-  header .navlinks a.navlink[href="#contact"]{font-size:18px!important}
+  #capabilities .section-head>.eyebrow,
+  #about .section-head>.eyebrow,
+  #regional .section-head>.eyebrow,
+  #quality .section-head>.eyebrow,
+  #engagement .section-head>.eyebrow,
+  #leadership .section-head>.eyebrow,
+  #contact .section-head>.eyebrow{font-size:14px!important}
 }
