@@ -219,3 +219,22 @@ h4{font-size:12px!important}
   .hero-main h1{font-size:clamp(27px,7vw,33px)!important}
   .section-title{font-size:clamp(22px,5.5vw,27px)!important}
 }
+
+
+/* Increase the requested main navigation labels. */
+header .navlinks a.navlink[href="#capabilities"],
+header .navlinks a.navlink[href="#about"],
+header .navlinks a.navlink[href="#regional"],
+header .navlinks a.navlink[href="#quality"],
+header .navlinks a.navlink[href="#engagement"],
+header .navlinks a.navlink[href="#leadership"],
+header .navlinks a.navlink[href="#contact"]{font-size:18px!important}
+@media(max-width:800px){
+  header .navlinks a.navlink[href="#capabilities"],
+  header .navlinks a.navlink[href="#about"],
+  header .navlinks a.navlink[href="#regional"],
+  header .navlinks a.navlink[href="#quality"],
+  header .navlinks a.navlink[href="#engagement"],
+  header .navlinks a.navlink[href="#leadership"],
+  header .navlinks a.navlink[href="#contact"]{font-size:17px!important}
+}
